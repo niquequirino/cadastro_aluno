@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,#66b3ff, #142a6d );
+}
+
+#logo{
+    width: 70px;
+    height: 70px;
+    margin-top: auto;
+    border-radius: 50%;
+    margin-left: 35px;
+    margin-right: -75px;
+}
+.title{
+    margin-right: 60px;
+}
+h1{
+    font-style: Medium;
+    color: #000000;
+    font-size: 40px;
+    padding-bottom: -90px;
+}
+
+h2{
+    font-style: bold;
+    font-family: 'Roboto Slab';
+    font-size: 60px;
+    color: #60A5FA;
+   
+}
+
+.form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 8px #0000001c;
+    background-color: #ffffff;
+    padding: 3rem;
+    margin-left: 200px;
+}
+
+.form-header {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.caixa{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+    padding: 10px;
+   
+}
+
+.caixa input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px #0000001c;
+    font-size: 0.8rem;
+    
+}
+
+
+.caixa input::placeholder {
+    color: #aca8a8be;
+    
+}
+
+.salve-button button {
+    background-color:#60A5FA ;
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+ 
+}
+.salve-button button:hover{
+    background: black;
+    color: #60A5FA;
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+ 
